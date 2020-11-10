@@ -40,8 +40,8 @@ async function getQuote() {
         } else {
             quoteText.classList.remove('long-quote');
         }
-
         quoteText.innerText = data.quote;
+ 
         //Stop loader, show the quote
         complete()
     } catch (error) {
